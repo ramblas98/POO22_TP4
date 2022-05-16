@@ -7,7 +7,7 @@ package tp4_eje1;
 
 /**
  *
- * @author alumno
+ * @author leo2
  */
 public class Circulo extends Figura {
    private double radio;

@@ -7,7 +7,7 @@ package tp4_eje1;
 
 /**
  *
- * @author alumno
+ * @author leo
  */
 public class Figura {
     public double area;
