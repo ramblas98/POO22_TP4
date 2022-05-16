@@ -36,7 +36,7 @@ public class Circulo extends Figura {
     }
    public double area(){
    
-   return((3.14)*this.getRadio()*this.getRadio());
+   return((3.14)*this.getRadio()*this.getRadio()) ;
    }
    
 }
