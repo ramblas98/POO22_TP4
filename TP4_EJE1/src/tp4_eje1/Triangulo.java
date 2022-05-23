@@ -57,7 +57,7 @@ public class Triangulo {
  
  }*/
     private boolean EsEscaleno(){
-        return ((this.getL1()) != (this.getL2())) != (this.getB());
+        return ((this.getL1()) != (this.getL2())|| this.getL1() != this.getB()||this.getL2()!= this.getB());
     }
     private boolean EsIsoseles(){
     if (this.getL1()==this.getL2())
