@@ -7,14 +7,13 @@ package tp4_eje1;
 
 /**
  *
- * @author leo
+ * @author alumno
  */
-public class Figura {
-    public double area (){
-    return 0;
-    }
-    public boolean mismaArea(Figura f){
-    return this.area==f.area;
+public class Cuadrilatero {
+  
     
+    public double area(){
+    
+    return 0;
     }
 }

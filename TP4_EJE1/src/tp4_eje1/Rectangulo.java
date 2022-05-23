@@ -45,6 +45,6 @@ public class Rectangulo extends Figura {
         this.area = area;
     }
     public double area(){
-    return 
+    return (this.getBase()*this.getAltura());
     }
 }
