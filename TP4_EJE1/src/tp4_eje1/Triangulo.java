@@ -44,7 +44,7 @@ public class Triangulo {
     }
     
     
- private String tipoTriangulo(){
+/* private String tipoTriangulo(){
  if (this.getL1()==this.getL2()== this.getB())
       return "Equilatero";
          else
@@ -55,7 +55,19 @@ public class Triangulo {
              return "Escaleno";
         
  
- }
-
-
+ }*/
+    private boolean EsEscaleno(){
+        return ((this.getL1()) != (this.getL2())) != (this.getB());
+    }
+    private boolean EsIsoseles(){
+    if (this.getL1()==this.getL2())
+            return true;
+                    else return false;
+    
+    }
+    private boolean EsEquilatero(){
+   return((this.getB()==this.getL1())|| this.getB()==this.l2);
+    
+    
+    }
 }
